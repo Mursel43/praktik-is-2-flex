@@ -1,0 +1,70 @@
+.korpus{
+    background-color: black;
+    height: 500px;
+    width: 340px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.anasehife{
+    display: flex;
+    justify-content: center;
+
+}
+.basliq h1{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 290px;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+}
+.hesablama-ekrani h2{
+    color: #fff;
+    display: flex;
+    font-size: 25px;
+    padding: 10px;
+    justify-content: end;
+    font-weight: bold;
+}
+
+
+    
+
+.regemler-1 button{
+    height:60px;
+    width: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #000;
+    background-color: rgba(251, 247, 247, 0.621);
+    border: none;  
+    
+}
+.regemler button{
+    height:60px;
+    width: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #fff;
+    background-color: rgb(67, 66, 66);
+    border: none;
+}
+ .regemler .orange{
+    background-color: orange;
+ }
+ .regemler-1 .orange{
+    background-color: orange;
+    color: #fff;
+ }

@@ -1,0 +1,2 @@
+# İkinci praktik işim calcilator. Flex
+Bu praktik işdə bir iphone calcilator görüntüsi düzəltdim çətin oldu və çox vaxdımı aldı öyrəndiklərmi praktik edərək dahada öyrənirəm geleceyde java scrpt i falan öyrənədə bunu təkmilləşdir bilərəm.
