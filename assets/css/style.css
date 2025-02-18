@@ -1,70 +1,49 @@
-.korpus{
-    background-color: black;
-    height: 500px;
-    width: 340px;
-    border-radius: 20px;
-    margin-top: 30px;
-}
-
-.anasehife{
-    display: flex;
-    justify-content: center;
-
-}
-.basliq h1{
-    background-color: white;
+.calculator{
+    border: 1px solid black;
+    width: 300px;
+    margin: 20px auto;
     border-radius: 10px;
-    padding: 15px;
-    font-size: 25px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 290px;
-    top: 10px;
-    right: 10px;
-    left: 10px;
-}
-.hesablama-ekrani h2{
-    color: #fff;
-    display: flex;
-    font-size: 25px;
     padding: 10px;
-    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.calculator .basliq{
+    border:1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    font-size: 25px;
     font-weight: bold;
 }
-
-
-    
-
-.regemler-1 button{
-    height:60px;
-    width: 60px;
-    margin: 10px;
-    border-radius: 50%;
+.calculator .hesablama-ekran{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: end;
+    color: white;
     font-size: 25px;
-    font-weight: bolder;
-    color: #000;
-    background-color: rgba(251, 247, 247, 0.621);
-    border: none;  
-    
 }
-.regemler button{
-    height:60px;
+
+.calculator .reqemler button{
     width: 60px;
-    margin: 10px;
+    height: 60px;
     border-radius: 50%;
-    font-size: 25px;
-    font-weight: bolder;
-    color: #fff;
-    background-color: rgb(67, 66, 66);
+    padding:10px;
+    margin: 5px;
     border: none;
+    font-size: 25px;
+    font-weight: bold;
+
 }
- .regemler .orange{
-    background-color: orange;
- }
- .regemler-1 .orange{
+
+
+.reqemler button:nth-child(n+4){
+    background-color: rgba(105, 102, 102, 0.895);
+    color: #fff;
+}
+.reqemler button:nth-child(4n+4){
     background-color: orange;
     color: #fff;
- }
+}
